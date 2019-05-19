@@ -1,0 +1,7 @@
+CREATE TABLE users (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR NOT NULL,
+  password VARCHAR NOT NULL,
+  introduction TEXT NOT NULL,
+  published BOOLEAN NOT NULL DEFAULT 'f'
+)
